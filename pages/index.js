@@ -1,9 +1,12 @@
+import Link from 'next/link';
 
 const Index = () => {
   return (
     <div>
       <h1>SSR with Next.js</h1>
-      <a href="./about">About</a>
+      <Link href='/about'>
+        <a>About</a>
+      </Link>
     </div>
   );
 };
