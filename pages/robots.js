@@ -11,7 +11,11 @@ const Robots = (props) => {
       <ul>
         {
           props.robots.map((robot) => {
-            return <li key={robot.id}>{robot.name}</li>
+            return <li key={robot.id}>
+              <Link href={`robots/${robot.id}`}>
+                <a>{robot.name}</a>
+              </Link>
+            </li>
           })
         }
       </ul>
