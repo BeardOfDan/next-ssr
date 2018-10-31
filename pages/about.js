@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from '../components/Image';
 
+
 const style = { fontSize: '20px', color: 'blue' };
 
 const About = () => {

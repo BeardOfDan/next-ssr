@@ -7,6 +7,10 @@ const Index = () => {
       <Link href='/about'>
         <button>About</button>
       </Link>
+      <span> </span> {/* spacing */}
+      <Link href='/robots'>
+        <button>Robots</button>
+      </Link>
     </div>
   );
 };
